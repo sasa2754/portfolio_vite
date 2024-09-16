@@ -21,6 +21,7 @@ p {
 .quadrado {
     width: 75vw;
     background-color: var(--yellow);
+    color: var(--black);
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -31,4 +32,8 @@ p {
     padding-top: 1.5rem;
     border-radius: 5rem;
     gap: 10px;
+}
+
+.quadrado > a {
+    color: var(--black);
 }

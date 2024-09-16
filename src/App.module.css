@@ -1,13 +1,14 @@
 :root {
-  --purple: rgba(232, 54, 255, 0.356);
-  --purpleShadow: rgba(245, 181, 253, 0.514);
-  --blue: rgba(54, 91, 255, 0.5);
-  --blueShadow: rgba(161, 178, 255, 0.63);
-  --yellow: rgba(255, 252, 54, 0.5);
-  --yellowShadow: rgba(255, 253, 151, 0.623);
-  --red: rgba(255, 54, 138, 0.5);
-  --redShadow: rgba(255, 116, 181, 0.5);
+  --purple: rgba(232, 54, 255, 0.7);
+  --purpleShadow: rgba(245, 181, 253, 0.7);
+  --blue: rgba(54, 91, 255, 0.7);
+  --blueShadow: rgba(161, 178, 255, 0.7);
+  --yellow: rgba(255, 252, 54, 0.7);
+  --yellowShadow: rgba(255, 253, 151, 0.7);
+  --red: rgba(255, 54, 138, 0.7);
+  --redShadow: rgba(255, 116, 181, 0.7);
   --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
 }
 
 * {
@@ -46,6 +47,7 @@ main {
   gap: 5rem;
   justify-content: center;
   padding-top: 8rem;
+  width: 100%;
   padding-bottom: 6rem;
 }
 
