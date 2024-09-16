@@ -5,6 +5,8 @@
   --blueShadow: rgba(161, 178, 255, 0.63);
   --yellow: rgba(255, 252, 54, 0.5);
   --yellowShadow: rgba(255, 253, 151, 0.623);
+  --red: rgba(255, 54, 138, 0.5);
+  --redShadow: rgba(255, 116, 181, 0.5);
   --white: rgb(255, 255, 255);
 }
 
@@ -31,6 +33,9 @@ header {
   padding: 10px;
   box-shadow: 0px 2px 5px 5px var(--purpleShadow);
   background-color: var(--purple);
+}
+
+header > img {
   cursor: pointer;
 }
 
@@ -41,6 +46,20 @@ main {
   gap: 5rem;
   justify-content: center;
   padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+footer {
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0px -2px 5px 5px var(--purpleShadow);
+  background-color: var(--purple);
+
 }
 
 a {
