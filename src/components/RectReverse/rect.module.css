@@ -6,12 +6,13 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 18px;
 }
 
 .quadradao > img {
-    width: 20vw;
+    width: 20rem;
     border-radius: 15rem;
     object-fit: cover;
     aspect-ratio: 1/1;
