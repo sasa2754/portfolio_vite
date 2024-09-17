@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Modal from './components/Modal'
-import './App.module.css'
+import style from'./App.module.css'
 import Rect from './components/Rect';
 import RectReverse from './components/RectReverse'
 
@@ -24,6 +24,10 @@ function App() {
       
       <footer id='Contato'>
         <h3>Informações de contato:</h3>
+        <a href="https://github.com/sasa2754"><img className={style.icone} src="/img/github.png" alt="github" /></a>
+        <a href="https://www.instagram.com/sabrina.2754?igsh=bHAwZ2Y4dXZqNmNv"><img className={style.icone} src="/img/instagram.png" alt="instagram" /></a>
+        <a href=" https://wa.me/41995213923"><img className={style.icone} src="/img/whatsapp.png" alt="whatsapp" /></a>
+
       </footer>
     </>
   )
