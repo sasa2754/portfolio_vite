@@ -34,3 +34,9 @@ p {
     border-radius: 5rem;
     gap: 10px;
 }
+
+.quadrado > a {
+    color: var(--white);
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}

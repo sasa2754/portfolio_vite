@@ -37,4 +37,6 @@ p {
 
 .quadrado > a {
     color: var(--black);
+    word-break: break-word;
+    overflow-wrap: anywhere;
 }
