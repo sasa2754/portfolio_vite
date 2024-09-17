@@ -11,6 +11,7 @@
   --black: rgb(0, 0, 0);
   --gradient: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   --backgroundScroll: rgba(0, 0, 0, 0.582);
+  --backgroundScrollHover: rgba(0, 0, 0, 0.658);
 }
 
 * {
@@ -42,6 +43,11 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: var(--backgroundScroll);
   border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--backgroundScrollHover);
+  cursor: pointer;
 }
 
 header {
